@@ -9,43 +9,79 @@
 </head>
 <body>
     <section id="api_section">
-        <h1 class="api_sec_heading">
-            简介 ：
-        </h1>
-        <p class="api_sec_desc">
-            实现一个API，主要功能为随机显示一张图片。使用Post和Get均可的请求方式实现目标
-        </p>
-        <p class="api_sec_desc">
-            返回格式：图片
-        </p>
-        <p>接口地址：<a href="https://9cc4-59-71-242-84.ngrok.io/random">'https://9cc4-59-71-242-84.ngrok.io/random'</a></p>
-    </section>
-    <section id="using_section">
-        <h1 class="use_sec_heading">
-            调用方法：
-        </h1>
-        <p class="use_sec_desc">
+        <div class="">
+            <h1 class="api_sec_heading">
+                一，随机返回照片
+            </h1>
             <p class="api_sec_desc">
-            使用form表单在Web服务器里向服务器请求数据
-        </p>
-        </p>
-        <div class="img_box">
-            <img class="img" src="./img/img3.png" alt="">
-            <p>《form表单》</p>
+                简介 ：实现一个API，主要功能为随机显示一张图片。使用Post和Get均可的请求方式实现目标
+            </p>
+            <p class="api_sec_desc">
+                返回格式：图片
+            </p>
+            <p>接口地址：<a href="http://randomimg.infinityfreeapp.com/api.php">'http://randomimg.infinityfreeapp.com/api.php'</a></p>
         </div>
-        <div class="img_box">
-            <img class="img" src="./img/Screenshot 2023-03-16 223042.png" alt="">
-            <p>《页面》</p>
+        <div class="using">
+            <p class="use_sec_desc">
+                调用方法：
+            <p class="api_sec_desc">
+                使用form表单在Web服务器里向服务器请求数据
+            </p>
+            </p>
+            <div class="img_box">
+                <img class="img" src="./img/img3.png" alt="">
+                <p>《form表单》</p>
+            </div>
+            <div class="img_box">
+                <img class="img" src="./img/Screenshot 2023-03-16 223042.png" alt="">
+                <p>《页面》</p>
+            </div>
+        </div>
+        <div class="testing">
+            <p>
+                网址展示：
+                <a class="btn-container" href="https://comforting-squirrel-0e9fcb.netlify.app/">
+                    <!--点击后用户代理尝试提交表单到服务器-->
+                    <input class="submit-btn" type="submit" value="To random image site" style="max-width:400px; font-size: 20px">
+                </a>
+            </p>
         </div>
     </section>
-    <section id="testing_section">
-        <h1 class="test_sec_heading">
-            网址展示：
-        </h1>
-        <a class="btn-container" href="https://9cc4-59-71-242-84.ngrok.io/random" >
-            <!--点击后用户代理尝试提交表单到服务器-->
-            <input class="submit-btn" type="submit" value="To random image site" style="max-width:400px; font-size: 20px">
-        </a>
+    <section id="api_section-2">
+        <div class="">
+            <h1 class="api_sec_heading">
+                二，根据序号获取实验照片
+            </h1>
+            <p class="api_sec_desc">
+                简介 ：实现一个API，主要功能为根据序号获取实验照片。使用Post和Get均可的请求方式实现目标
+            </p>
+            <p class="api_sec_desc">
+                返回格式：图片
+            </p>
+            <p>接口地址：<a href="http://randomimg.infinityfreeapp.com/api.php">'http://randomimg.infinityfreeapp.com/api.php'</a></p>
+        </div>
+        <div class="using">
+            <p>比例：<a
+                    href="http://randomimg.infinityfreeapp.com/api.php?id=1">"http://randomimg.infinityfreeapp.com/api.php"?id=1</a>
+            </p>
+            <div class="img_box">
+                <p>返回图片：</p>
+                <img src="./photos/7KIDaUHuPceOx8m.jpg" alt="">
+                <p>序号等于1的图片</p>
+            </div>
+        </div>
+        <div class="others">
+            <p>其他照片结果</p>
+            <div class="img_box">
+                <img src="./photos/img1.jpg" alt="">
+                <p>序号等于2的图片</p>
+            </div>
+            <div class="img_box">
+                <img src="./photos/img2.jpg" alt="">
+                <p>序号等于3的图片</p>
+            </div>
+        </div>
+        </div>
     </section>
     <footer id="footer">
         <p>NGUYEN VIET HOANG MINH - 20203000096</p>
